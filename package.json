@@ -4,7 +4,8 @@
   "description": "Webshop, simple one",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "webhop",
@@ -12,5 +13,12 @@
     "fed19s"
   ],
   "author": "Pontus Bovin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
 }
