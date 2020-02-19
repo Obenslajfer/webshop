@@ -4,8 +4,11 @@ const app = express();
 const port = 8080;
 
 
+
+app.use("/css", express.static("css"))
 app.get("/", (req, res)=>{
-    res.send("hello world")
+    const engrej = "hallå"
+    res.status(200).render("gallery", {engrej});
 })
 
 
