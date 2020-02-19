@@ -1,4 +1,5 @@
 // härifrån startar vi upp vår webshop
+const mongoose = require("mongoose")
 const {app, port} = require("./src/server")
 const config = require("./config/config")
 
