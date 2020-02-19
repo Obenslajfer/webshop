@@ -1,0 +1,16 @@
+{
+  "name": "webshop",
+  "version": "0.0.1",
+  "description": "Webshop, simple one",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "webhop",
+    "minimal",
+    "fed19s"
+  ],
+  "author": "Pontus Bovin",
+  "license": "ISC"
+}
