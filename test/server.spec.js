@@ -5,7 +5,7 @@ const {app, port} = require("../src/server")
 
 
 describe("simpe test, doesnt work", ()=>{
-    let server
+    let server;
 
     beforeEach(() => {
          server = app.listen(port,() => console.log("testing server up"))
